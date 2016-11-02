@@ -23,7 +23,7 @@
             };
         }, {
             offset: function () {
-                return -$(window).height()
+                return -$(this.element).height()
             }
         });
                 
